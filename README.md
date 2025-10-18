@@ -1,3 +1,3 @@
 # Glassmorphism UI
 
-## Lets build glassmorphism themed components
+## Lets build glassmorphism themed components!
