@@ -18,7 +18,7 @@ body {
 }
 
 .container {
-  margin: 35px 0;
+  margin: 2rem 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -26,9 +26,9 @@ body {
 
 .container .btn {
   position: relative;
-  width: 155px;
-  height: 50px;
-  margin: 20px;
+  width: 10rem;
+  height: 3rem;
+  margin: 1rem;
 }
 
 .container .btn a {
@@ -41,22 +41,22 @@ body {
   justify-content: center;
   align-items: center;
   background: rgba(255, 255, 255, 0.05);
-  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   color: #fff;
   z-index: 10;
-  border-radius: 30px;
+  border-radius: 2rem;
   font-weight: 400;
   letter-spacing: 1px;
   text-decoration: none;
   overflow: hidden;
   transition: 0.5s;
-  backdrop-filter: blur(15px);
+  backdrop-filter: blur(1rem);
 }
 
 .container .btn a:hover {
-  letter-spacing: 3px;
+  letter-spacing: 0.15rem;
 }
 
 .container .btn a::before {
@@ -80,8 +80,8 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 60px;
-  height: 60px;
+  width: 3.5rem;
+  height: 3.5rem;
   transform: translate(-50%, -50%);
   background: #ff0461;
   border-radius: 50%;
@@ -90,31 +90,31 @@ body {
 }
 
 .container:nth-child(2) .btn::before {
-  border-radius: 10px;
+  border-radius: 0.75rem;
   transform: translate(-50%, -50%) rotate(45deg);
 }
 
 .container .btn:hover::before {
   width: 100%;
   height: 100%;
-  border-radius: 30px;
+  border-radius: 2rem;
   transform: translate(-50%, -50%) rotate(0deg);
 }
 
 .container .btn:nth-child(1)::before {
   background: #ff1f72;
-  box-shadow: 0 0 5px #ff1f72, 0 0 15px #ff1f72, 0 0 30px #ff1f72,
-    0 0 60px #ff1f72;
+  box-shadow: 0 0 0.3rem #ff1f72, 0 0 1rem #ff1f72, 0 0 2rem #ff1f72,
+    0 0 3.5rem #ff1f72;
 }
 
 .container .btn:nth-child(2)::before {
   background: #2bd2ff;
-  box-shadow: 0 0 5px #2bd2ff, 0 0 15px #2bd2ff, 0 0 30px #2bd2ff,
-    0 0 60px #2bd2ff;
+  box-shadow: 0 0 0.3rem #2bd2ff, 0 0 1rem #2bd2ff, 0 0 2rem #2bd2ff,
+    0 0 3.5rem #2bd2ff;
 }
 
 .container .btn:nth-child(3)::before {
   background: #1eff45;
-  box-shadow: 0 0 5px #1eff45, 0 0 15px #1eff45, 0 0 30px #1eff45,
-    0 0 60px #1eff45;
+  box-shadow: 0 0 0.3rem #1eff45, 0 0 1rem #1eff45, 0 0 2rem #1eff45,
+    0 0 3.5rem #1eff45;
 }
